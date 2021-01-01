@@ -1,0 +1,317 @@
+/* IMPORTANDO FUENTES */
+
+@font-face
+{
+    font-family: "Lato";
+    src: url(./fonts/Lato/Lato-Light.ttf);
+}
+
+@font-face
+{
+    font-family: "Roboto";
+    src: url(./fonts/Roboto/Roboto-Bold.ttf);
+}
+
+@font-face
+{
+    font-family: "Webfont";
+    src: url(./fonts/fontawesome-webfont.ttf);
+}
+
+/* ------------------------------------- */
+/* Reset */
+/* ------------------------------------- */
+
+body {
+    font: normal 75% Arial, Helvetica, sans-serif;
+    padding: 18px;
+}
+
+/* ------------------------------------- */
+/* Particles.js container */
+/* ------------------------------------- */
+#particles-js {
+    height: 20%;
+    background-color: transparent;
+    background-size: cover;
+    background-position: center;
+}
+
+/* ------------------------------------- */
+/* Utilidades */
+/* ------------------------------------- */
+.division{
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    width: 1000px;
+}
+
+.full-h{
+    height: 100vh;
+}
+
+.is-flex.center-y {
+    align-items: center;
+}
+
+.is-flex.center-x {
+    justify-content: center;
+}
+
+.item{
+    height: 180px;
+}
+
+/* ------------------------------------- */
+/* Pictures */
+/* ------------------------------------- */
+img{
+    max-width: 100%;
+}
+
+/* ------------------------------------- */
+/* Footer */
+/* ------------------------------------- */
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #bfbfbf;
+    height: auto;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #000;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-family: "Lato";
+    margin: 10px auto;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.footer-content p{
+    font-family: "Lato";
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2.5rem;
+    /*margin: 1rem 0 1rem 0;*/
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #000;
+}
+
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+
+.socials a:hover i{
+    color: #6f6f6f;
+}
+
+/* ------------------------------------- */
+/* Container links */
+/* ------------------------------------- */
+.containerLinks{
+    margin-right: 0rem;
+    background-color: transparent;
+    padding: 1rem;
+}
+
+.containerLinks a{
+    margin-right: 2.5rem;
+    color:#000000;
+    font-family: "Lato";
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+/* ------------------------------------- */
+/* Contain */
+/* ------------------------------------- */
+.containText h1{
+    font-family: "Lato";
+    font-weight: lighter;
+    line-height: 4rem;
+    font-size: 2.6rem;
+    text-transform: capitalize;
+    color: #000000;
+}
+.containText p{
+    font-size: 16px;
+    color:#000000;
+    font-family: "Lato";
+    line-height: 2rem;
+    margin: 2rem 0;
+    text-justify: inter-word;
+    text-align: justify;
+}
+
+/* ------------------------------------- */
+/* Homepage */
+/* ------------------------------------- */
+.hm-padding{
+    padding: 20px;
+    padding-top: 10%;
+    padding-bottom: 20%;
+}
+
+.hm-padding-img{
+    padding: 20px;
+    padding-top: 10%;
+    padding-bottom: 20%;
+}
+
+/* ------------------------------------- */
+/* About me */
+/* ------------------------------------- */
+.about-padding{
+    padding: 20px;
+    padding-bottom: 15%;
+}
+
+.about-img{
+    max-width: 80%;
+    position: absolute;
+    top: 320px;
+    left: 0;
+}
+
+/* ------------------------------------- */
+/* Tech */
+/* ------------------------------------- */
+.tech-padding{   
+}
+
+.tech-padding h1{
+    font-family: "Lato";
+    font-weight: lighter;
+    line-height: 1rem;
+    font-size: 2.6rem;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.tech-padding li{
+    font-size: 16px;
+    color:#000000;
+    font-family: "Lato";
+    line-height: 1.2rem;
+    margin: 2rem 0;
+    text-justify: inter-word;
+    text-align: justify;
+}
+
+.tech-padding p{
+    font-size: 16px;
+    color:#000000;
+    font-family: "Lato";
+    line-height: 1.2rem;
+    margin: 0 0;
+    text-justify: inter-word;
+    text-align: right;
+}
+
+hr {
+    border-color: #696969;
+}
+
+/* ------------------------------------- */
+/* Photos */
+/* ------------------------------------- */
+
+.photos-padding{
+    padding: 10px;
+}
+
+.photos-padding-space{
+    padding: 20px;
+    padding-bottom: 10%;
+}
+
+/* ------------------------------------- */
+/* Contact me */
+/* ------------------------------------- */
+
+.contact{
+    padding: 20px;
+    padding-top: 15%;
+}
+
+.contact h1{
+    font-family: "Lato";
+    font-weight: lighter;
+    line-height: 1rem;
+    font-size: 2.6rem;
+    text-transform: capitalize;
+    color: #000000;
+    text-align: center;
+}
+
+.contact p{
+    font-size: 16px;
+    color:#000000;
+    font-family: "Lato";
+    line-height: 2rem;
+    margin: 0 0;
+    text-justify: inter-word;
+    text-align: center;
+}
+
+.contact-padding{
+    padding: 20px;
+    padding-bottom: 15%;
+}
+
+.contact-socials{
+    list-style: none;
+    display: flex;    
+    justify-content: center;
+    margin-right: 2.5rem;
+    /*margin: 1rem 0 1rem 0;*/
+}
+
+.contact-socials li{
+    margin: 0 10px;
+}
+
+.contact-socials a{
+    text-decoration: none;
+    color: #000;
+}
+
+.contact-socials a i{
+    font-size: 2rem;
+    transition: color .4s ease;
+}
+
+.contact-socials a:hover i{
+    color: #6f6f6f;
+}
